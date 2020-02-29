@@ -1,4 +1,4 @@
-# honey-money
+# Honey money - money keeper for you and your family
 
 # Описание проекта
 
