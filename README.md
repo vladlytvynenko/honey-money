@@ -19,3 +19,12 @@
 Люди, которые хотят контролировать свой расход и доход, или расход и доход своей семьи.
 Любой проффесии и пола. Минимальный возраст пользователя 12 лет.
 
+## UI
+
+![Welcome page](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 1.jpg)
+![Sign in](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 2.jpg)
+![Sign up](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 3.jpg)
+![Main page](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 4.jpg)
+![Settings](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 5.jpg)
+![Settings](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 6.jpg)
+![Menu](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 7.jpg)
