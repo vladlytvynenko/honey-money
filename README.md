@@ -21,10 +21,10 @@
 
 ## UI
 
-![Welcome page](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 1.jpg)
-![Sign in](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 2.jpg)
-![Sign up](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 3.jpg)
-![Main page](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 4.jpg)
-![Settings](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 5.jpg)
-![Settings](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 6.jpg)
-![Menu](https://github.com/egornesterenko/honey-money/tree/ui/ui/Android - 7.jpg)
+![Welcome page](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%201.jpg?raw=true)
+![Sign in](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%202.jpg?raw=true)
+![Sign up](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%203.jpg?raw=true)
+![Main page](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%204.jpg?raw=true)
+![Settings](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%205.jpg?raw=true)
+![Settings](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%206.jpg?raw=true)
+![Menu](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%207.jpg?raw=true)
