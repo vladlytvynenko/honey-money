@@ -21,23 +21,23 @@
 
 ## UI
 
-* Main page:
+### Main page: ###
 ![Welcome page](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%201.jpg?raw=true)
 
-* Sign up page:
+### Sign up page: ###
 ![Sign in](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%202.jpg?raw=true)
 
-* Sign in page:
+### Sign in page: ###
 ![Sign up](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%203.jpg?raw=true)
 
-* Main page:
+### Main page: ###
 ![Main page](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%204.jpg?raw=true)
 
-* Profile page:
+### Profile page: ###
 ![Settings](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%205.jpg?raw=true)
 
 ![Settings](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%206.jpg?raw=true)
 
-* Burger-menu:
+### Burger-menu: ###
 ![Menu](https://github.com/egornesterenko/honey-money/blob/ui/ui/Android%20-%207.jpg?raw=true)
 
