@@ -43,7 +43,11 @@ class RegistrationSerializer(serializers.ModelSerializer):
         return new_password
 
     def save(self, **kwargs):
-        self.instance: UserAccount = super().save(**kwargs)
+        self.instance = UserAccount.objects.create_user(
+            self.validated_data.get("email"), self.validated_data.get("password")
+        )
+        self.instance.first_name = self.validated_data.get("first_name")
+        self.instance.last_name = self.validated_data.get("last_name")
         family_uuid = self.validated_data.pop("family_uuid")
         if family_uuid is None:
             family = Family.objects.create(
