@@ -41,7 +41,7 @@ class PasswordService:
         else:
             reset_password_signature = cls._generate_reset_password_signature(user)
             domain_name = Site.objects.get_current().domain
-            reset_password_link = f"https://{domain_name}/reset-password/{reset_password_signature}"
+            reset_password_link = f"https://{domain_name}/api/v1/reset-password/{reset_password_signature}"
             context = {
                 "user_notification_salutation": user.notification_salutation,
                 "domain_name": domain_name,
