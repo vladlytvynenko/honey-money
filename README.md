@@ -22,10 +22,6 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-### List of services: ###
-
-* Dev server: [https://honey_money.com/](https://honey_money.com/)
-
 ### Documentation: ###
 
 * [UI overview](docs/ui.md)
