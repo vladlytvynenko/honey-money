@@ -16,6 +16,24 @@ def backend_shell(ctx):
 
 
 @task()
+def backend_makemigrations(ctx, app="", empty=False):
+    with ctx.cd(project_path("api")):
+        ctx.run("./manage.py makemigrations {} {}".format(app, "--empty" if empty else ""), pty=True, replace_env=False)
+
+
+@task()
+def backend_migrate(ctx, app="", migration_name=""):
+    with ctx.cd(project_path("api")):
+        ctx.run("./manage.py migrate {} {}".format(app, migration_name), pty=True, replace_env=False)
+
+
+@task()
+def backend_showmigrations(ctx):
+    with ctx.cd(project_path("api")):
+        ctx.run("./manage.py showmigrations", pty=True, replace_env=False)
+
+
+@task()
 def backend_clean_pyc(ctx):
     with ctx.cd(project_path("api")):
         ctx.run("find . -name \\*.pyc -delete")

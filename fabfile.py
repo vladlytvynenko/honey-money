@@ -1,6 +1,13 @@
 from invoke import Collection  # isort:skip
 
-from fabric_scripts.backend import backend_clean_pyc, backend_run, backend_shell
+from fabric_scripts.backend import (
+    backend_clean_pyc,
+    backend_makemigrations,
+    backend_migrate,
+    backend_run,
+    backend_shell,
+    backend_showmigrations,
+)
 from fabric_scripts.celery import celery_collection
 from fabric_scripts.compose import compose_collection
 from fabric_scripts.frontend import frontend_collection
@@ -14,4 +21,7 @@ namespace = Collection(
 )
 namespace.add_task(backend_run, name="run")
 namespace.add_task(backend_shell, name="shell")
+namespace.add_task(backend_makemigrations, name="makemigrations")
+namespace.add_task(backend_migrate, name="migrate")
+namespace.add_task(backend_showmigrations, name="showmigrations")
 namespace.add_task(backend_clean_pyc, name="clean-pyc")
