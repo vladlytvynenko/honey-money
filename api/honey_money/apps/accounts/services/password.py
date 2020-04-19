@@ -2,6 +2,7 @@ from django.conf import settings
 from django.contrib.auth import password_validation
 from django.contrib.sites.models import Site
 from django.core.exceptions import ValidationError as DjangoValidationError
+from django.core.mail import send_mail
 from django.core.signing import BadSignature, SignatureExpired, TimestampSigner
 from django.utils.translation import gettext
 
@@ -61,8 +62,17 @@ class PasswordService:
 
     @staticmethod
     def _send_notification(user_pk: str, context: dict):
-        # send_notification.delay(user_pk, "user-reset-password", context)  # TODO: Implement notification sending
-        pass
+        user_email = UserAccount.objects.get(pk=user_pk).email
+        send_mail(
+            "Your password reset link",
+            "Hi, {salutation}, your reset link: {reset_password_link}".format(
+                salutation=context.get("user_notification_salutation"),
+                reset_password_link=context.get("reset_password_link"),
+            ),
+            settings.HONEY_MONEY_EMAIL_FROM,
+            [user_email],
+            fail_silently=False,
+        )
 
     @staticmethod
     def _generate_reset_password_signature(user: UserAccount) -> str:

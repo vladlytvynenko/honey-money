@@ -14,6 +14,8 @@ def input_data():
         "password": "test12356",  # nosec
         "first_name": "first_name",
         "last_name": "last_name",
+        "family_uuid": None,
+        "family_name": "My Family",
     }
 
 
