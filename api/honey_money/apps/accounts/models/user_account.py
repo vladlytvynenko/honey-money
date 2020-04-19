@@ -48,6 +48,9 @@ class UserAccount(PermissionsMixin, CoreModel, AbstractBaseUser):
         ),
     )
     date_joined = models.DateTimeField(default=timezone.now)
+    family = models.ForeignKey(
+        "accounts.Family", related_name="members", on_delete=models.PROTECT, null=True, blank=True
+    )
 
     objects = UserManager()
 

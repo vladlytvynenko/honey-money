@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     # our apps
     "honey_money.apps.common.apps.CommonConfig",
     "honey_money.apps.accounts.apps.AccountConfig",
+    "honey_money.apps.budget.apps.BudgetConfig",
 ] + env.list("HONEY_MONEY_DEV_INSTALLED_APPS", default=[])
 
 MIDDLEWARE = [
