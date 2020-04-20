@@ -31,10 +31,10 @@
 
 ### API documentation: ###
 
-* ReDoc web UI: [https://honey_money.com/_platform/docs/v1/redoc/](https://honey_money.com/_platform/docs/v1/redoc/)
-* Swagger web UI: [https://honey_money.com/_platform/docs/v1/swagger/](https://honey_money.com/_platform/docs/v1/swagger/)
-* Swagger JSON: [https://honey_money.com/_platform/docs/v1/swagger.json](https://honey_money.com/_platform/docs/v1/swagger.json)
-* Swagger YAML: [https://honey_money.com/_platform/docs/v1/swagger.yaml](https://honey_money.com/_platform/docs/v1/swagger.yaml)
+* ReDoc web UI: [https://honey-money.vatform/docs/v1/redoc/](https://honey-money.herokuapp.com/_platform/docs/v1/redoc/)
+* Swagger web UI: [https://honey-money.herokuapp.com/_platform/docs/v1/swagger/](https://honey-money.herokuapp.com/_platform/docs/v1/swagger/)
+* Swagger JSON: [https://honey-money.herokuapp.com/_platform/docs/v1/swagger.json](https://honey-money.herokuapp.com/_platform/docs/v1/swagger.json)
+* Swagger YAML: [https://honey-money.herokuapp.com/_platform/docs/v1/swagger.yaml](https://honey-money.herokuapp.com/_platform/docs/v1/swagger.yaml)
 
 ### First run: ###
 
