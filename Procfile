@@ -1,2 +1,2 @@
 release: cd api/ && python manage.py migrate --noinput
-web: gunicorn api.honey_money.wsgi --log-file -
+web: env PYTHONPATH=$PYTHONPATH:$PWD/api gunicorn honey_money.wsgi --log-file -
