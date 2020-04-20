@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd api/ && python manage.py migrate --noinput
-cd api/ && python manage.py collectstatic --noinput
+cd api/ && python manage.py migrate --noinput && cd ..
+cd api/ && python manage.py collectstatic --noinput && cd ..
