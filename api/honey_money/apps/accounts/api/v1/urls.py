@@ -1,5 +1,6 @@
 from django.urls import path
 
+from honey_money.apps.accounts.api.v1.views.family import FamilyAPIView, FamilyCreateAPIView
 from honey_money.apps.accounts.api.v1.views.login import JWTLoginAPIView
 from honey_money.apps.accounts.api.v1.views.password import (
     ChangePasswordAPIView,
@@ -22,4 +23,7 @@ urlpatterns = [
     # custom reset view templates
     path("reset-password/<str:signature>", ResetPasswordView.as_view(), name="reset-password-view"),
     path("password/reset-done/", ResetPasswordDoneViewAPIView.as_view(), name="reset-password-done"),
+    # family urls
+    path("my-family/", FamilyAPIView.as_view(), name="my-family-api"),
+    path("family/create/", FamilyCreateAPIView.as_view(), name="family-create-api"),
 ]

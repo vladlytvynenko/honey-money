@@ -13,7 +13,8 @@ api_v1_urlpatterns = [
     path(
         f"{API_PREFIX}/v1/accounts/",
         include(("honey_money.apps.accounts.api.v1.urls", "accounts"), namespace="api-v1-accounts"),
-    )
+    ),
+    path(f"{API_PREFIX}/v1/", include(("honey_money.apps.budget.api.v1.urls", "budget"), namespace="api-v1-budget")),
 ]
 
 urlpatterns = admin_urlpatterns + api_v1_urlpatterns

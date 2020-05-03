@@ -23,16 +23,16 @@ class Budget(models.Model):
         return self.lines.expenses()
 
     @property
-    def real_income(self):
+    def full_income(self):
         return self._get_lines_sum(self.income_lines)
 
     @property
-    def real_expense(self):
+    def full_expense(self):
         return self._get_lines_sum(self.expense_lines)
 
     @property
-    def real_difference(self):
-        return self.real_income - self.real_expense
+    def full_difference(self):
+        return self.full_income - self.full_expense
 
     @staticmethod
     def _get_lines_sum(qs):
