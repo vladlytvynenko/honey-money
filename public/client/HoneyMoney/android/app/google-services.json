@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "545789075708",
+    "firebase_url": "https://honeymoney-85150.firebaseio.com",
+    "project_id": "honeymoney-85150",
+    "storage_bucket": "honeymoney-85150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545789075708:android:ab181900c79e994231f779",
+        "android_client_info": {
+          "package_name": "com.honeymoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545789075708-cqjft1baqgnrbs5218l1brlfv175kt2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5YmyDaVDJSMfDz9Zz9y8W4h883LPhwVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545789075708-cqjft1baqgnrbs5218l1brlfv175kt2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
