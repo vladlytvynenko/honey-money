@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Honey money - money keeper for you and your family
 
 ## Описание проекта
@@ -93,3 +94,8 @@ Run Django server:
 ```bash
 fab run
 ```
+=======
+# honey-money
+
+# Описание 
+>>>>>>> Update README.md
