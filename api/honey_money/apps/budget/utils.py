@@ -16,8 +16,8 @@ def get_dates_on_spend_limit_type(spend_limit_type):
         start = today - timedelta(days=today.weekday())
         end = start + timedelta(days=6)
     elif spend_limit_type == SpendingLimitTypeChoices.MONTH:
-        start_day, end_day = calendar.monthrange(today.year, today.month)
-        start, end = date(today.year, today.month, start_day), date(today.year, today.month, end_day)
+        _, end_day = calendar.monthrange(today.year, today.month)
+        start, end = date(today.year, today.month, 1), date(today.year, today.month, end_day)
     elif spend_limit_type == SpendingLimitTypeChoices.YEAR:
         start, end = date(today.year, 1, 1), date(today.year, 12, 31)
     else:
